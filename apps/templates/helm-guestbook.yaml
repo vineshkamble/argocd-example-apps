@@ -3,7 +3,6 @@ kind: Application
 metadata:
   annotations:
     notifications.argoproj.io/subscribe.on-sync-succeeded.slack: contentfly-bot-notification
-    notifications.argoproj.io/subscribe.on-sync-succeeded.gmail: $EMAIL_USER
   name: helm-guestbook
   namespace: argocd
   finalizers:
