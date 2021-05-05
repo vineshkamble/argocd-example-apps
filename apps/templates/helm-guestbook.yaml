@@ -3,7 +3,9 @@ kind: Application
 metadata:
   annotations:
     notifications.argoproj.io/subscribe.on-sync-succeeded.github: ""
+    notifications.argoproj.io/subscribe.on-deployed.github: ""
     notifications.argoproj.io/subscribe.on-sync-succeeded.slack: contentfly-bot-notification
+    notifications.argoproj.io/subscribe.on-deployed.slack: contentfly-bot-notification
   name: helm-guestbook
   namespace: argocd
   finalizers:
